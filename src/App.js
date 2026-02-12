@@ -51,7 +51,7 @@ const jobsData = [
 
   return (
     <div className="container">
-      <h1>Opportunities That Match You</h1>
+      <h1 className = "heading">Opportunities That Match You</h1>
       <h6 className = "subheading" >("Don't think about the AI will replace our jobs , get the opportunity and focus on sharpening your skills, even AI will disappear by observing your skills")</h6>
       <p className="sub-heading">
          Available Opportunities</p>
