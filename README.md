@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+***Job Listing UI ****
+   Project Overview :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Frontend Job Listing UI built as part of an intern hiring assignment.
+The application allows users to browse job listings, search jobs by title, and filter jobs based on location and job type.
 
-## Available Scripts
+The goal of this project is to demonstrate frontend fundamentals, React basics, and logical thinking using static mock data without any backend.
 
-In the project directory, you can run:
+ ***Objective***
 
-### `npm start`
+Display job listings using a clean UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Allow users to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Search jobs by title
 
-### `npm test`
+Filter jobs by location
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Filter jobs by job type (Internship / Full-time)
 
-### `npm run build`
+Ensure the application is responsive and easy to use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ***Technologies Used***
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+JavaScript (ES6)
 
-### `npm run eject`
+HTML & CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React Hooks (useState)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*** Project Structure**
+src/
+ ├── components/
+ │    └── JobCard.js
+ ├── App.js
+ ├── App.css
+ └── index.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ ***Job Data Structure**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application uses static mock data in the following format:
 
-## Learn More
+{
+  "id": 1,
+  "title": "Frontend Intern",
+  "company": "Acme Corp",
+  "location": "Remote",
+  "type": "Internship"
+}
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ ***Features Implemented***
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Display job cards with:
 
-### Code Splitting
+Job title
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Company name
 
-### Analyzing the Bundle Size
+Location
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Job type
 
-### Making a Progressive Web App
+Search jobs by title
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Filter jobs by location
 
-### Advanced Configuration
+Filter jobs by job type
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Responsive layout for mobile and desktop screens
 
-### Deployment
+**How to Run the Project Locally**
+Step 1: Install Dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Step 2: Start the Application
+npm start
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The app will run on:
+
+http://localhost:3000
